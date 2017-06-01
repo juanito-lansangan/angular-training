@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
                <input type="text" [(ngModel)]="_lname" />
                <h3>{{_fname}} {{_lname}}</h3>`
 })
-export class TwoWayDataBinding  {
+export class TwoWayDataBindingComponent  {
     title = "Two Way Binding";
     // fname;
     // lname;

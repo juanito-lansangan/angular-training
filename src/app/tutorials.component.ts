@@ -7,5 +7,5 @@ import { Component } from "@angular/core";
 })
 export class TutorialsComponent {
     public title = "Awesome Angular Tutorial";
-    public imageUrl = "http://lorempixel.com/400/200";
+    public imageUrl = ""; //"http://lorempixel.com/400/200";
 }

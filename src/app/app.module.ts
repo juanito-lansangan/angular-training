@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { TutorialsComponent } from './tutorials.component';
 import { ClassStyleBindingComponent } from './tutorials/class-style-binding.component';
 import { EventBindingReferenceComponent } from "./tutorials/event-binding-reference.component";
-import { TwoWayDataBinding } from "./tutorials/two-way-data-binding.component";
+import { TwoWayDataBindingComponent } from "./tutorials/two-way-data-binding.component";
+import { StructuralDirectivesComponent } from "./tutorials/structural-directives.component";
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TwoWayDataBinding } from "./tutorials/two-way-data-binding.component";
     TutorialsComponent,
     ClassStyleBindingComponent,
     EventBindingReferenceComponent,
-    TwoWayDataBinding
+    TwoWayDataBindingComponent,
+    StructuralDirectivesComponent
   ],
   imports: [
     BrowserModule,
