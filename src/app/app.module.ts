@@ -8,6 +8,7 @@ import { ClassStyleBindingComponent } from './tutorials/class-style-binding.comp
 import { EventBindingReferenceComponent } from "./tutorials/event-binding-reference.component";
 import { TwoWayDataBindingComponent } from "./tutorials/two-way-data-binding.component";
 import { StructuralDirectivesComponent } from "./tutorials/structural-directives.component";
+import { AttributeDirectivesComponent } from "./tutorials/attribute-directives.component";
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StructuralDirectivesComponent } from "./tutorials/structural-directives
     ClassStyleBindingComponent,
     EventBindingReferenceComponent,
     TwoWayDataBindingComponent,
-    StructuralDirectivesComponent
+    StructuralDirectivesComponent,
+    AttributeDirectivesComponent
   ],
   imports: [
     BrowserModule,
