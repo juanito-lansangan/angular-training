@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TutorialsComponent } from './tutorials.component';
-import { ClassStyleBinding } from './tutorials/class-style-binding.component';
+import { ClassStyleBindingComponent } from './tutorials/class-style-binding.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TutorialsComponent,
-    ClassStyleBinding
+    ClassStyleBindingComponent
   ],
   imports: [
     BrowserModule

@@ -8,7 +8,7 @@ import { Component } from "@angular/core";
     styles: [`.my-class {color:red}
     `]
 })
-export class ClassStyleBinding {
+export class ClassStyleBindingComponent {
     public applyclass = true;
     public applyBlue = false;
 }
