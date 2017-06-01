@@ -9,6 +9,8 @@ import { EventBindingReferenceComponent } from "./tutorials/event-binding-refere
 import { TwoWayDataBindingComponent } from "./tutorials/two-way-data-binding.component";
 import { StructuralDirectivesComponent } from "./tutorials/structural-directives.component";
 import { AttributeDirectivesComponent } from "./tutorials/attribute-directives.component";
+import { InputOutputComponent } from "./tutorials/input-output.component";
+import { InputOutputSubComponent } from "./tutorials/input-output-sub.component";
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { AttributeDirectivesComponent } from "./tutorials/attribute-directives.c
     EventBindingReferenceComponent,
     TwoWayDataBindingComponent,
     StructuralDirectivesComponent,
-    AttributeDirectivesComponent
+    AttributeDirectivesComponent,
+    InputOutputComponent,
+    InputOutputSubComponent
   ],
   imports: [
     BrowserModule,
